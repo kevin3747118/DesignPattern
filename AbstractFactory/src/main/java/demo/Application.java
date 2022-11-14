@@ -4,8 +4,8 @@ import demo.uifactory.UIFactory;
 
 public class Application {
 
-  private Button button;
-  private CheckBox checkbox;
+  private final Button button;
+  private final CheckBox checkbox;
 
   public Application(UIFactory factory) {
     this.button = factory.createButton();
